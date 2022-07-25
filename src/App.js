@@ -1,12 +1,11 @@
 import './App.css';
 
 function App() {
-  const sayHello = () => {
-    console.log('Hey consola');
+  const sayHelloAndBye = () => {
+    console.log("Hello and also Bye :)");
   }
-
   return (
-    <button onClick={sayHello()}>Hey</button>
+    <button onClick={sayHelloAndBye()}>Hey</button>
   );
 }
 
